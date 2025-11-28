@@ -258,4 +258,3 @@ async def entregar_paquete(
         raise HTTPException(status_code=500, detail=f"Error DB: {e}")
 
     return {"mensaje": "Entrega registrada", "foto": path, "entrega_id": entrega.id}
-
