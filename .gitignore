@@ -1,0 +1,24 @@
+cat << 'EOF' > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Subidas
+uploads/
+EOF
